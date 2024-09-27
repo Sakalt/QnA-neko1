@@ -88,5 +88,53 @@
     "category": "C言語基礎",
     "token": "switch文",
     "output": "switch文は、複数の条件分岐を効率的に処理するための構文です。値に応じて異なるケースを実行します。"
+  },
+  {
+    "input": "Kotlinとは何ですか？",
+    "category": "プログラミング言語",
+    "token": "Kotlin",
+    "output": "Kotlinは、Java仮想マシン（JVM）上で動作するプログラミング言語で、Androidアプリ開発やサーバーサイド開発に広く使われています。簡潔な構文とモダンな機能が特徴です。"
+  },
+  {
+    "input": "Kotlinで変数を宣言する方法は？",
+    "category": "Kotlin基礎",
+    "token": "変数_宣言",
+    "output": "Kotlinで変数を宣言するには、`val`（変更不可）または`var`（変更可能）を使用します。例えば、`val name = \"Kotlin\"`や`var age = 25`のように宣言します。"
+  },
+  {
+    "input": "Kotlinの関数を定義するには？",
+    "category": "Kotlin基礎",
+    "token": "関数_定義",
+    "output": "Kotlinで関数を定義するには、`fun`キーワードを使います。例えば、`fun greet() { println(\"Hello!\") }` のように定義します。"
+  },
+  {
+    "input": "Kotlinでnull安全性を確保する方法は？",
+    "category": "Kotlin基礎",
+    "token": "null安全",
+    "output": "Kotlinでは、変数にnullを許可する場合、型の後に`?`を付けます。例えば、`var name: String? = null`のように書きます。nullかもしれない変数にアクセスする場合、`?.`を使って安全にアクセスできます。"
+  },
+  {
+    "input": "Kotlinの`when`文とは何ですか？",
+    "category": "Kotlin基礎",
+    "token": "when_文",
+    "output": "`when`文は、Kotlinの条件分岐構文で、Javaの`switch`文に似ています。`when`文を使うと、複数の条件に基づいて処理を分岐できます。例：`when (x) { 1 -> print(\"One\") 2 -> print(\"Two\") else -> print(\"Unknown\") }`"
+  },
+  {
+    "input": "Kotlinでクラスを定義するには？",
+    "category": "Kotlin基礎",
+    "token": "クラス_定義",
+    "output": "Kotlinでクラスを定義するには、`class`キーワードを使います。例えば、`class Person(val name: String, var age: Int)`のように、簡潔な構文でクラスとそのプロパティを定義できます。"
+  },
+  {
+    "input": "Kotlinのデータクラスとは何ですか？",
+    "category": "Kotlin基礎",
+    "token": "データクラス",
+    "output": "データクラスは、主にデータを保持するために使用されるクラスです。`data class`で定義され、自動的に`equals`、`hashCode`、`toString`などのメソッドが生成されます。"
+  },
+  {
+    "input": "Kotlinで拡張関数を使う方法は？",
+    "category": "Kotlin基礎",
+    "token": "拡張関数",
+    "output": "Kotlinでは既存のクラスに対して新しい関数を追加する拡張関数が使えます。例えば、`fun String.removeSpaces(): String { return this.replace(\" \", \"\") }` のように既存の`String`クラスに関数を追加できます。"
   }
 ]
